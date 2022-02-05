@@ -83,3 +83,20 @@ const playTink = (e) => {
                 return;
         }
 };
+
+// Event Listeners //
+const instrumentFunctions = [
+        playClap,
+        playHihat,
+        playKick,
+        playOpenhat,
+        playBoom,
+        playRide,
+        playSnare,
+        playTom,
+        playTink
+];
+
+for(let i = 0; i < instrumentFunctions.length; i++){
+        window.addEventListener("keydown", instrumentFunctions[i]);
+}
