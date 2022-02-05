@@ -1,19 +1,7 @@
-/* 
-.container {
-    display: flex;
-    gap: 20px;
-    padding: 0 20px;
-} */
-
-/* .keys {
-    height: 100px;
-    width: 100px;
-    border: 2px solid grey;
-    text-align: center;
-    margin: 40vh auto 0 auto;
-
-           */
-/* } */
+body {
+  background-image: url(img/nightclub-background.jpeg);
+  background-size: cover;
+}
 #alertText {
   position: absolute;
   width: 100%;
